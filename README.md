@@ -6,6 +6,8 @@
 - https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=WSL-Ubuntu&target_version=2.0&target_type=runfile_local
 - Cuda installieren mit präferierter Methode siehe Link
 - check mit nvidia-smi (Cuda Treiber läuft local)
+- ![image](https://user-images.githubusercontent.com/107040049/174431490-c068eaca-9666-4589-9aaf-bf54b31f6e02.png)
+
 - sudo docker run --gpus all nvcr.io/nvidia/k8s/cuda-sample:nbody nbody -gpu -benchmark
 - check ob cuda über container läuft 
 - docker run --rm --gpus all nvidia/cuda:11.7.0-runtime-ubuntu20.04 nvidia-smi ( auf Cuda Version achten (selbhe wie vom System) )
