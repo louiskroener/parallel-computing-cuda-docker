@@ -16,6 +16,7 @@
 - Dockerfile
 - Varianten 
 - Was lässt uns Cuda in / über Docker steueren 
+- ![image](https://user-images.githubusercontent.com/107040049/174433919-1ad2b8ff-9469-4768-b331-d6aba4c717b8.png)
 ### weitere Gedanken
 
 - Abriss der Grundlagen der Virtualisierung ( insbensondere bezogen auf GPU / Cuda )
