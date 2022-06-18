@@ -11,6 +11,7 @@
 - ![image](https://user-images.githubusercontent.com/107040049/174431593-f165dc29-406c-46bb-8bf8-5404edd711a6.png)
 - check ob cuda über container läuft 
 - docker run --rm --gpus all nvidia/cuda:11.7.0-runtime-ubuntu20.04 nvidia-smi ( auf Cuda Version achten (selbhe wie vom System) )
+- ![image](https://user-images.githubusercontent.com/107040049/174431678-51bece42-ddf9-4efd-96c8-06c83837c9cc.png)
 ## Praktische Beispiele
 - Dockerfile
 - Varianten 
