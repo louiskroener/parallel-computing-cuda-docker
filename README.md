@@ -9,13 +9,17 @@
 ``nvidia-smi``
 
 ![image](https://user-images.githubusercontent.com/107040049/174431490-c068eaca-9666-4589-9aaf-bf54b31f6e02.png)
+
 - check ob cuda über container läuft 
 
 ``docker run --rm --gpus all nvidia/cuda:11.7.0-runtime-ubuntu20.04 nvidia-smi``
+
 ![image](https://user-images.githubusercontent.com/107040049/174431678-51bece42-ddf9-4efd-96c8-06c83837c9cc.png)
+
 - GPU Benchmark
 
 ``sudo docker run --gpus all nvcr.io/nvidia/k8s/cuda-sample:nbody nbody -gpu -benchmark``
+
 ![image](https://user-images.githubusercontent.com/107040049/174431593-f165dc29-406c-46bb-8bf8-5404edd711a6.png)
 
 ## Praktische Beispiele
